@@ -1,11 +1,10 @@
 [workspace]
 members = [
     "test_1",
-    "test_2",
-    "test_3"
+    "test_2"
 ]
 
 [workspace.dependencies]
 serde = { version = "1.0.164", features = ["derive"] }
 serde_yaml = "0.9.21"
-serde_json = "1.0.96"
+quiche = {version = "0.17.2", features=["boringssl-vendored"]}

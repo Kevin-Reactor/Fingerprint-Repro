@@ -6,9 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = { workspace = true }
-serde_json = { workspace = true }
+quiche = { workspace = true }
 
 [lib]
 name = "test_1"
-crate-type = ["cdylib", "lib"]
+crate-type = ["cdylib"]

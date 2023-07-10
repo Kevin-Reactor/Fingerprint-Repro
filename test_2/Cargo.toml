@@ -11,4 +11,4 @@ serde_yaml = { workspace = true }
 
 [lib]
 name = "test_2"
-crate-type = ["cdylib", "lib"]
+crate-type = ["cdylib"]
